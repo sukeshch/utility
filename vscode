@@ -1,2 +1,36 @@
 Java Formatter:
   https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings
+
+settings.json :
+
+{
+  "editor.quickSuggestions": null,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "notebook.kernelProviderAssociations": [],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.clang_format_style": "Chromium",
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.cmake": "makefile"
+  },
+  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "typescript.tsdk": "",
+  "window.zoomLevel": 1
+}
